@@ -1,165 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <title>Flex SharePoint Help Center | Carina Lee</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Flex SharePoint Help Center | Carina Lee">
+    <meta name="keywords" content="carina lee, animation, digital artist, artist, digital designer, designer, graphic designer, visual designer, illustrator">
+    <meta name="author" content="Carina Lee">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Flex: SharePoint Help Center | Carina Lee</title>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Import custom fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-
-    <!-- Custom Bootstrap css -->
-    <link href="../css/custom-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <link rel="stylesheet" href="css/custom-w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   </head>
   <body>
-    <!-- Top navigation -->
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+    <!-- Mobile Navigation -->
+    <nav class="w3-sidebar w3-bar-block w3-secondary" style="display: none;" id="mySidebar">
+      <div class="w3-display-topright">
+        <button class="w3-bar-item w3-button w3-padding-16 w3-xlarge w3-hover-none w3-hover-text-white" onclick="w3_close()">&times;</button>
+      </div>
+      <div class="w3-display-middle">
+        <a href="" class="w3-bar-item w3-button w3-padding-large w3-large w3-hover-none w3-hover-text-white w3-mobile">Portfolio</a>
+        <a href="" class="w3-bar-item w3-button w3-padding-large w3-large w3-hover-none w3-hover-text-white w3-mobile">About</a>
+      </div>
+    </nav>
+    
+    <!-- Navigation -->
+    <nav>
+      <div class="w3-content w3-bar">
+        <a href="/" class="w3-bar-item w3-button w3-padding-24 w3-hover-none w3-hover-text-primary w3-wide text-uppercase" style="font-weight: bold;">Carina Lee</a>
+        <div class="w3-right">
+          <a href="" class="w3-bar-item w3-button w3-padding-24 w3-hover-none w3-hover-text-primary w3-hide-small">Portfolio</a>
+          <a href="" class="w3-bar-item w3-button w3-padding-24 w3-hover-none w3-hover-text-primary w3-hide-small">About</a>
+          <button class="w3-bar-item w3-button w3-padding-24 w3-hover-none w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fas fa-bars"></i>
           </button>
-          <a class="navbar-brand text-uppercase" href="../">Carina Lee</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="../">Work</a>
-            </li>
-            <li>
-              <a href="../about">About</a>
-            </li>
-          </ul>
         </div>
       </div>
     </nav>
-
-    <!-- Page header -->
-    <div class="container">
-      <div class="row page-header">
-        <div class="col-lg-6">
-          <h1>SharePoint Help Center</h1>
-          <p class="lead">Flex's internal SharePoint support portal</p>
+    
+    <!-- Hero Section -->
+    <header>
+      <img src="images/sharepoint-home.jpg" class="w3-image" alt="">
+      <div class="w3-content w3-padding-64 w3-center">
+        <h1 class="w3-margin">SharePoint Help Center</h1>
+        <p class="w3-xlarge w3-margin">Flex's internal SharePoint support portal</p>
+      </div>
+    </header>
+    
+    <!-- Page Content -->
+    <section class="w3-content">
+      <div class="w3-row-padding">
+        <div class="w3-threequarter">
+          <p class="w3-large">At Flex, I helped established a delivery and governance support portal called the SharePoint Help Center. My role was to design the user interface and pull together different training and support materials into one location. For new users, this is the first place to learn about what SharePoint does as a collaboration tool.</p>
         </div>
-        <div class="col-lg-6">
-          <p>At Flex, I helped established a delivery and governance support portal called the SharePoint Help Center. My role was to design the user interface and pull together different training and support materials into one location. For new users, this is the first place to learn about what SharePoint does as a collaboration tool.</p>
+        <div class="w3-quarter">
+          <h2 class="w3-text-primary w3-small w3-wide text-uppercase" style="font-weight: bold;">Role</h2>
+          <p>Branding</p>
+          <p>Web Design</p>
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="thumbnail">
-            <img src="../images/sharepoint-home.jpg" alt="" class="img-responsive">
-          </div>
-        </div>
+      <div class="w3-container w3-padding-64">
+        <img src="images/sharepoint-home-full.jpg" class="w3-image" alt="Home Page">
+        <p>This is the starting point for SharePoint users who want to request a new site or are looking for training and support.</p>
       </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="thumbnail">
-            <img src="../images/sharepoint-home-full.jpg" alt="" class="img-responsive">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <h2 class="h3">Home Page</h2>
-          <p>This is the starting point for SharePoint users who want to request a new site or are looking for training and support.</p>
-        </div>
+      <div class="w3-container w3-padding-64">
+        <img src="images/sharepoint-training.jpg" class="w3-image" alt="Training Page">
+        <p>SharePoint users can watch training videos to learn how to perform actions such as creating a list, document library, or assigning permissions to a single item. The Microsoft Videos section is comprised of a Refinement web part and a Search Results web part that displays videos uploaded to an Office 365 Video channel.</p>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="thumbnail">
-            <img src="../images/sharepoint-training.jpg" alt="" class="img-responsive">
-            <div class="caption">
-              <h2 class="h3">Training</h2>
-              <p>SharePoint users can watch training videos to learn how to perform actions such as creating a list, document library, or assigning permissions to a single item. The Microsoft Videos section is comprised of a Refinement web part and a Search Results web part that displays videos uploaded to an Office 365 Video channel.</p>
-            </div>
-          </div>
-        </div>
+      <div class="w3-container w3-padding-64">
+        <img src="images/sharepoint-support.jpg" class="w3-image" alt="Support Services Page">
+        <p>SharePoint users can choose from the following self-service support options: Knowledge Base, Expert Community, Reference Manual, or open a ticket in ServiceNow.</p>
       </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="thumbnail">
-            <img src="../images/sharepoint-support.jpg" alt="" class="img-responsive">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <h2 class="h3">Support Services</h2>
-          <p>SharePoint users can choose from the following self-service support options: Knowledge Base, Expert Community, Reference Manual, or open a ticket in ServiceNow.</p>
-        </div>
+    </section>
+    
+    <section class="w3-container w3-light-gray w3-padding-64">
+      <h3 class="w3-margin-bottom w3-center">Here's more of my work!</h3>
+      <div class="w3-row">
+        <a href="reel" class="w3-quarter w3-button w3-text-secondary w3-hover-none w3-hover-text-dark-gray">
+          <img src="images/generic.jpg" class="w3-image" alt="">
+          <h4 class="w3-large">Reel</h4>
+          <h5 class="w3-small w3-wide text-uppercase">Animation</h5>
+        </a>
+        <a href="matte-paintings" class="w3-quarter w3-button w3-text-secondary w3-hover-none w3-hover-text-dark-gray">
+          <img src="images/generic.jpg" class="w3-image" alt="">
+          <h4 class="w3-large">Matte Paintings</h4>
+          <h5 class="w3-small w3-wide text-uppercase">Digital Art</h5>
+        </a>
+        <a href="flex-emails" class="w3-quarter w3-button w3-text-secondary w3-hover-none w3-hover-text-dark-gray">
+          <img src="images/cover-email-designs.jpg" class="w3-image" alt="">
+          <h4 class="w3-large">Flex Email Designs</h4>
+          <h5 class="w3-small w3-wide text-uppercase">Email Design</h5>
+        </a>
+        <a href="readmind-me" class="w3-quarter w3-button w3-text-secondary w3-hover-none w3-hover-text-dark-gray">
+          <img src="images/cover-readmind-me.jpg" class="w3-image" alt="">
+          <h4 class="w3-large">ReadMind Me</h4>
+          <h5 class="w3-small w3-wide text-uppercase">Mobile App Design</h5>
+        </a>
       </div>
-    </div>
-
-    <!--Bottom navigation -->
-    <div class="bg-light-gray">
-      <div class="container text-center">
-        <h3 class="h4">Check these out too!</h3>
-        <div class="row">
-          <div class="col-lg-3">
-
-          </div>
-          <div class="col-lg-2">
-            <div class="thumbnail">
-              <a href="../flex-emails">
-                <img src="../images/cover-email-designs.jpg" alt="" class="img-responsive">
-                <div class="caption">Flex: Email Designs</div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="thumbnail">
-              <a href="../readmind-me">
-                <img src="../images/cover-readmind-me.jpg" alt="" class="img-responsive">
-                <div class="caption">ReadMind Me</div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="thumbnail">
-              <a href="../other">
-                <img src="../images/generic.jpg" alt="" class="img-responsive">
-                <div class="caption">Other</div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-
-          </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="w3-dark-gray w3-padding-24">
+      <div class="w3-content w3-bar">
+        <div class="w3-right w3-mobile">
+          <a href="//behance.net/carinalee" class="w3-bar-item w3-button w3-hover-none w3-hover-text-secondary" target="_blank">
+            <i class="fab fa-behance fa-fw"></i>
+          </a>
+          <a href="//instagram.com/carinamlee" class="w3-bar-item w3-button w3-hover-none w3-hover-text-secondary" target="_blank">
+            <i class="fab fa-instagram fa-fw"></i>
+          </a>
+          <a href="//vimeo.com/carinalee" class="w3-bar-item w3-button w3-hover-none w3-hover-text-secondary" target="_blank">
+            <i class="fab fa-vimeo-v fa-fw"></i>
+          </a>
+          <a href="//linkedin.com/in/carina-lee" class="w3-bar-item w3-button w3-hover-none w3-hover-text-secondary" target="_blank">
+            <i class="fab fa-linkedin-in fa-fw"></i>
+          </a>
         </div>
+        <span class="w3-bar-item">&copy 2012-2018 Carina Lee</span>
       </div>
-    </div>
-
-    <!-- Bottom breadcrumbs -->
-    <!--<div class="container text-center">
-      <ul class="breadcrumb">
-        <li>
-          <a href="../index.html">All</a>
-        </li>
-        <li class="active">Flex: SharePoint Help Center</li>
-        <li>
-          <a href="../flex-emails/index.html">Flex: Email Designs</a>
-        </li>
-        <li>
-          <a href="../icon-exploration/index.html">Icon Exploration</a>
-        </li>
-        <li>
-          <a href="../other/index.html">Other</a>
-        </li>
-      </ul>
-    </div>-->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </footer>
+    
+    <!-- JavaScript for Mobile Navigation -->
+    <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.width = "100%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
   </body>
 </html>
