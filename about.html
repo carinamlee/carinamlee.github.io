@@ -1,82 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>About | Carina Lee</title>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Import custom fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-
-    <!-- Custom Bootstrap css -->
-    <link href="../css/custom-bootstrap.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="description" content="Hello world. I'm Carina — an artist, designer, and animator.">
+    <meta name="keywords" content="carina lee, animation, digital artist, artist, digital designer, designer, graphic designer, visual designer, illustrator">
+    <meta name="author" content="Carina Lee">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <link rel="stylesheet" href="css/custom-w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   </head>
   <body>
-    <!-- Top navigation -->
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+    <!-- Mobile Navigation -->
+    <nav class="w3-sidebar w3-bar-block w3-secondary" style="display: none;" id="mySidebar">
+      <div class="w3-display-topright">
+        <button class="w3-bar-item w3-button w3-padding-16 w3-xlarge w3-hover-none w3-hover-text-white" onclick="w3_close()">&times;</button>
+      </div>
+      <div class="w3-display-middle">
+        <a href="" class="w3-bar-item w3-button w3-padding-large w3-large w3-hover-none w3-hover-text-white w3-mobile">Portfolio</a>
+        <a href="" class="w3-bar-item w3-button w3-padding-large w3-large w3-hover-none w3-hover-text-white w3-mobile">About</a>
+      </div>
+    </nav>
+    
+    <!-- Navigation -->
+    <nav>
+      <div class="w3-content w3-bar">
+        <a href="/" class="w3-bar-item w3-button w3-padding-24 w3-hover-none w3-hover-text-primary w3-wide text-uppercase" style="font-weight: bold;">Carina Lee</a>
+        <div class="w3-right">
+          <a href="" class="w3-bar-item w3-button w3-padding-24 w3-hover-none w3-hover-text-primary w3-hide-small">Portfolio</a>
+          <a href="" class="w3-bar-item w3-button w3-padding-24 w3-text-primary w3-hover-none w3-hover-text-primary w3-hide-small">About</a>
+          <button class="w3-bar-item w3-button w3-padding-24 w3-hover-none w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fas fa-bars"></i>
           </button>
-          <a class="navbar-brand text-uppercase" href="../">Carina Lee</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="../">Work</a>
-            </li>
-            <li class="active">
-              <a href="/">About</a>
-            </li>
-          </ul>
         </div>
       </div>
     </nav>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5">
-          <div class="thumbnail">
-            <img src="../images/generic.jpg" alt="" class="img-responsive">
-          </div>
+    
+    <!-- Hero Section -->
+    <header class="w3-content w3-padding-32">
+      <div class="w3-cell-row">
+        <div class="w3-cell w3-container w3-mobile">
+          <img src="images/generic.jpg" class="w3-image" alt="">
         </div>
-        <div class="col-lg-7">
-          <h1>Hello world.</h1>
-          <p class="lead">I'm a graphic designer currently looking for new opportunities. Previously, I designed digital media at Flex that ranged from emails, websites, and videos. In my spare time you can find me watching animated films or series, catching up on my video game backlog, filling up my Pok&eacute;dex in Pok&eacute;mon GO, or planning my next adventure around the world.</p>
-          <div class="row">
-            <div class="col-lg-6">
-              <h4>Let's get in touch!</h4>
-              <p>
-                <a href="mailto:carinamlee@gmail.com">Email me &rarr;</a>
-              </p>
-            </div>
-            <div class="col-lg-6">
-              <h4>You can also find me here!</h4>
-              <p>
-                <a href="//behance.net/carinalee" target="_blank">Behance &rarr;</a>
-              </p>
-              <p>
-                <a href="//linkedin.com/in/carina-lee" target="_blank">LinkedIn &rarr;</a>
-              </p>
-            </div>
-          </div>
+        <div class="w3-cell w3-cell-middle w3-container w3-mobile">
+          <h1 class="w3-large">I'm a graphic designer currently looking for new opportunities. Previously, I designed digital media at Flex that ranged from emails, websites, and videos. In my spare time you can find me watching animated films or series, catching up on my video game backlog, filling up my Pokédex in Pokémon GO, or planning my next adventure around the world.</h1>
         </div>
       </div>
-    </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </header>
+    
+    <!-- Page Content -->
+    <section class="w3-content w3-padding-32">
+      <div class="w3-row-padding">
+        <div class="w3-third">
+          <h2 class="w3-xlarge">Skills</h2>
+          <p>Animation</p>
+          <p>HTML/CSS</p>
+          <p>Responsive Design</p>
+        </div>
+        <div class="w3-third">
+          <h2 class="w3-xlarge">Software</h2>
+          <p>Adobe Photoshop</p>
+          <p>Adobe Illustrator</p>
+          <p>Adobe Premiere Pro</p>
+          <p>Adobe After Effects</p>
+          <p>Autodesk Maya</p>
+        </div>
+        <div class="w3-third">
+          <h2 class="w3-xlarge">Find me here!</h2>
+          <p><a href="//behance.net/carinalee" class="w3-text-secondary w3-hover-text-dark-gray" target="_blank">Behance</a></p>
+          <p><a href="//instagram.com/carinamlee" class="w3-text-secondary w3-hover-text-dark-gray" target="_blank">Instagram</a></p>
+          <p><a href="//vimeo.com/carinalee" class="w3-text-secondary w3-hover-text-dark-gray" target="_blank">Vimeo</a></p>
+          <p><a href="//linkedin.com/in/carina-lee" class="w3-text-secondary w3-hover-text-dark-gray" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="w3-container w3-light-gray w3-padding-64 w3-center">
+      <h2>Let's get in touch!</h2>
+      <a href="mailto:carinamlee@gmail.com" class="w3-button w3-round-small w3-small w3-wide w3-padding-large w3-section w3-text-secondary w3-border w3-border-secondary w3-topbar w3-bottombar w3-rightbar w3-leftbar w3-hover-secondary text-uppercase" style="font-weight: bold;">Email me</a>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="w3-dark-gray w3-padding-24">
+      <div class="w3-content w3-bar">
+        <div class="w3-right w3-mobile">
+          <a href="//behance.net/carinalee" class="w3-bar-item w3-button w3-hover-none w3-hover-text-secondary" target="_blank">
+            <i class="fab fa-behance fa-fw"></i>
+          </a>
+          <a href="//instagram.com/carinamlee" class="w3-bar-item w3-button w3-hover-none w3-hover-text-secondary" target="_blank">
+            <i class="fab fa-instagram fa-fw"></i>
+          </a>
+          <a href="//vimeo.com/carinalee" class="w3-bar-item w3-button w3-hover-none w3-hover-text-secondary" target="_blank">
+            <i class="fab fa-vimeo-v fa-fw"></i>
+          </a>
+          <a href="//linkedin.com/in/carina-lee" class="w3-bar-item w3-button w3-hover-none w3-hover-text-secondary" target="_blank">
+            <i class="fab fa-linkedin-in fa-fw"></i>
+          </a>
+        </div>
+        <span class="w3-bar-item">&copy 2012-2018 Carina Lee</span>
+      </div>
+    </footer>
+    
+    <!-- JavaScript for Mobile Navigation -->
+    <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.width = "100%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
   </body>
 </html>
