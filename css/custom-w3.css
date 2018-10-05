@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+html {height: 100%;} /* Required to make parallax background fit the whole screen */
+
+
+/*-------------------------------------------*\
+    Typography
+\*-------------------------------------------*/
+
+body {
+  color: #325158;
+  font-family: "Lato", sans-serif;
+  height: 100%; /* Required to make parallax background fit the whole screen */
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: "Lato", sans-serif;}
+
+.w3-wide {letter-spacing: 2px !important;}
+
+.text-uppercase {text-transform: uppercase;}
+
+
+/*-------------------------------------------*\
+    Color Classes
+    
+    Index
+    - Background Color
+    - Text Color
+    - Border Color
+\*-------------------------------------------*/
+
+.w3-primary, .w3-hover-primary:hover {color: #f9fbfc !important; background-color: #30c9e8 !important;}
+.w3-dark-gray, .w3-hover-dark-gray:hover {color: #f9fbfc !important; background-color: #325158 !important;}
+.w3-light-gray, .w3-hover-light-gray:hover {color: #325158 !important; background-color: #f9fbfc !important;}
+.w3-white, .w3-hover-white:hover {color:#325158 !important; background-color: #fff !important;}
+.w3-secondary, .w3-hover-secondary:hover {color: #f9fbfc !important; background-color: #ff4430 !important;}
+
+.w3-text-primary, .w3-hover-text-primary:hover {color: #30c9e8 !important;}
+.w3-text-dark-gray, .w3-hover-text-dark-gray:hover {color: #325158 !important;}
+.w3-text-light-gray, .w3-hover-text-light-gray:hover {color: #f9fbfc !important;}
+.w3-text-white, .w3-hover-text-white:hover {color: #fff !important;}
+.w3-text-secondary, .w3-hover-text-secondary:hover {color: #ff4430 !important;}
+
+.w3-border-primary, .w3-hover-border-primary:hover {border-color: #30c9e8 !important;}
+.w3-border-dark-gray, .w3-hover-border-dark-gray:hover {border-color: #325158 !important;}
+.w3-border-light-gray, .w3-hover-border-light-gray:hover {border-color: #f9fbfc !important;}
+.w3-border-white, .w3-hover-border-white:hover {border-color: #fff !important;}
+.w3-border-secondary, .w3-hover-border-secondary:hover {border-color: #ff4430 !important;}
+
+
+/*-------------------------------------------*\
+    Border
+\*-------------------------------------------*/
+
+.w3-topbar, .w3-bottombar, .w3-rightbar, .w3-leftbar {border-width: 2px !important;}
+
+
+/*-------------------------------------------*\
+    Overlay - used on home page
+\*-------------------------------------------*/
+
+.overlay-container {position: relative;}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(249, 251, 252, .9);
+}
+
+.overlay-container:hover .overlay {opacity: 1;}
+
+.overlay-text {
+  /*color*/
+  /*font-size*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*-------------------------------------------*\
+    Parallax - can be used at top of page
+\*-------------------------------------------*/
+
+.parallax {
+  height: calc(100vh - 70px); /* Full height of viewport */
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax.sharepoint {background-image: url("https://carinamlee.github.io/images/sharepoint-home.jpg"); background-position: center top;}
